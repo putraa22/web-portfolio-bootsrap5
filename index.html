@@ -11,176 +11,109 @@
 
     <title>My Web-Portfolio</title>
   </head>
-  <body data-spy="scroll" data-target="#navbar2" data-offset="0" class="scrollspy-example" tabindex="0">
+  <body>
 
 
 <!-- navbar -->
-<nav id="navbar2" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-  <div class="container-fluid">
-    <a class="navbar-brand mb-0 h1" href="#home">Hermansyah Putra</a>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top shadow">
+  <div class="container">
+    <a class="navbar-brand" href="#">Hermansyah Putra</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav nav-pills ms-auto">
+      <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <a class="nav-link"  href="#About">About</a>
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#Portfolio">Portfolio</a>
+          <a class="nav-link" href="#">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#Contact">Contact</a>
+          <a class="nav-link" href="#">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
 <!-- akhir navbar -->
-   
-    <!-- jumbotron -->
-    <div class="p-5 mb-4 bg-secondary rounded-3 text-center">
-      <img src="img/foto.jpeg"  placeholder width="200" height="200" class="rounded-circle" title="completely round image">
-      <h1>Hermansyah Putra</h1>
-      <p>Anime Lover | Pengen Jadi Programer</p>    
-    </div>
-    <!-- akhir jumbotron -->
+
+<!-- jumbotron -->
+    <section class="jumbotron text-center">
+      <img src="img/foto.jpeg"  placeholder width="200" height="200" class="rounded-circle">
+      <h1 class="display-4">Hermansyah Putra</h1>
+      <p class="lead">Anime Lover | Pengen Jadi Programer</p>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="10" d="M0,96L40,128C80,160,160,224,240,
+        208C320,192,400,96,480,85.3C560,75,640,149,720,165.3C800,181,880,139,960,133.3C1040,128,
+        1120,160,1200,144C1280,128,1360,64,1400,32L1440,0L1440,320L1400,320C1360,320,1280,320,1200,320C1120,
+        320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+    </section>
+<!-- akhir jumbotron -->
     
-    <!-- about -->
-    <section class="about" id="About">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 text-center">
-            <h2>About</h2>
-            <hr>
-          </div>
+<!-- about -->
+  <section id="about">
+    <div class="container">
+      <div class="row text-center mb-4">
+        <div class="col">
+          <h2>About Me</h2>
         </div>
       </div>
-
-      <div class="row">
-        <div class="col-5 offset-1">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias eligendi adipisci unde quidem, obcaecati natus non ullam voluptatem nulla voluptates libero quod dolorum. Iste culpa id inventore possimus voluptas! Neque.</p>
+      <div class="row justify-content-between fs-5 text-center">
+        <div class="col-5">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque minima distinctio nulla veniam, et exercitationem rerum dolorum. Porro corporis doloremque adipisci eos, tenetur expedita molestiae!</p>
         </div>
         <div class="col-5">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias officia, ullam pariatur veniam eaque veritatis suscipit culpa, doloribus perspiciatis cumque dolorem corporis possimus enim reprehenderit animi, ex amet consequuntur tempora.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, maiores quidem libero aut quasi vitae omnis dignissimos sed! Officia rerum debitis id error eaque distinctio sequi omnis. Maiores, rerum veritatis!</p>
         </div>
       </div>
-    </section>
-    <!-- akhir about -->
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e2edff" fill-opacity="1" d="M0,160L48,154.7C96,149,192,139,288,149.3C384,160,480,192,576,213.3C672,235,768,245,864,261.3C960,277,1056,299,1152,293.3C1248,288,1344,256,1392,240L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+  </section>
+<!-- akhir about -->
 
-    <!-- portfolio -->
-    <section class="portfolio" id="Portfolio">
-      <div class="container">
-        <div class="row">
-          <div class="col text-center">
-            <h2>Portfolio</h2>
-            <hr>
-          </div>
+<!-- Projects -->
+  <section id="projects">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col">
+          <h2>My Projects</h2>
         </div>
-
-        <div class="row text-center text-lg-start">
-          <div class="col-lg-3 col-md-4 col-6 text-center">
-           <a href="" class="d-block mb-4 ">
-              <img class="img-fluid img-thumbnail" src="img/Tanjiro.jpg"  alt="Tanjiro">
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6 text-center">
-            <a href="" class="d-block mb-4">
-              <img class="img-fluid img-thumbnail" src="img/inosuke2.jpg"  alt="Tanjiro">
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6 text-center">
-            <a href="" class="d-block mb-4">
-              <img class="img-fluid img-thumbnail" src="img/luffy2.jpg"  alt="Tanjiro">
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6 text-center">
-            <a href="" class="d-block mb-4">
-              <img class="img-fluid img-thumbnail" src="img/zenitsu2.jpg"  alt="Tanjiro">
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6 text-center">
-            <a href="" class="d-block mb-4">
-              <img class="img-fluid img-thumbnail" src="img/zenitsu22.jpg"  alt="Tanjiro">
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6 text-center">
-            <a href="" class="d-block mb-4">
-              <img class="img-fluid img-thumbnail" src="img/luffy2.jpg"  alt="Tanjiro">
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6 text-center">
-            <a href="" class="d-block mb-4">
-              <img class="img-fluid img-thumbnail" src="img/Tanjiro.jpg"  alt="Tanjiro">
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6 text-center">
-            <a href="" class="d-block mb-4">
-              <img class="img-fluid img-thumbnail" src="img/luffy2.jpg"  alt="Tanjiro">
-            </a>
-          </div>
       </div>
-    </section>
-    <!-- akhir portfolio -->
-
-    <!-- contact -->
-    <section class="contact" id="Contact">
-     <div class="container">
       <div class="row">
-        <div class="col-md-12 text-center">
-          <h2>Contact</h2>
-          <hr>
+        <div class="col">
+          <div class="card">
+            <img src="img/gambar1.jpg" class="card-img-top" alt="gambar1">
+            <div class="card-body">
+              <p class="card-text">Gambar ini punya orang.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/gambar2.jpg" class="card-img-top" alt="gambar2">
+            <div class="card-body">
+              <p class="card-text">Gambar ini punya orang.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/gambar3.jpg" class="card-img-top" alt="gambar3">
+            <div class="card-body">
+              <p class="card-text">Gambar ini punya orang.</p>
+            </div>
+          </div>
         </div>
       </div>
+    </div>
+  </section>
+<!-- akhir Projects -->
 
-      <div class="row">
-        <div class="col-md-8 offset-2">
-          <form>
-            <div class="mb-3">
-              <label for="nama" class="form-label">Nama</label>
-              <input type="text" class="form-control" id="nama" placeholder="Masukkan Nama">
-            </div>
-
-            <div class="mb-3">
-              <label for="InputEmail1" class="form-label">Email</label>
-              <input type="email" class="form-control" id="InputEmail1" placeholder="Masukkan Email">
-             
-            </div>
-
-            <div class="mb-3">
-              <label for="telp" class="form-label">Nomor Telp</label>
-              <input type="tel" class="form-control" id="telp" placeholder="Masukkan Nomor Telp">
-            </div>
-            
-            <label for="autoSizingSelect" class="visually-hidden"></label>
-            <select class="form-select" id="autoSizingSelect">
-              <option >Choose Category</option>
-              <option value="1">One Piece</option>
-              <option value="2">Kimetsu No Yaiba</option>
-            </select>
-
-            <div class="mb-3">
-              <label for="FormControlTextarea1" class="form-label">Pesan</label>
-              <textarea class="form-control" id="FormControlTextarea1" rows="3"></textarea>
-            </div>
-
-            <button type="submit" class="btn btn-primary">Submit</button>
-
-          </form>
-        </div>
-      </div>
-     </div>
-    </section>
-
-    <!-- akhir contact -->
+<!-- contact -->
+<!-- akhir contact -->
 
     <!-- footer -->
     <footer class="bg-dark text-center text-white"> 
@@ -193,15 +126,8 @@
     </footer>
     <!-- akhir footer -->
 
-    <!-- Optional JavaScript; choose one of the two! -->
-
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    -->
   </body>
 </html>
