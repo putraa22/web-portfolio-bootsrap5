@@ -1,0 +1,26 @@
+.p-5  {
+    margin-top: 10px;
+}
+
+
+hr {
+    width: 250px;
+    border-top: 3px solid rgb(14, 14, 14);
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.portfolio {
+    background-color: rgb(151, 151, 151);
+    min-height: 600px;
+}
+
+section {
+    min-height: 300px;
+}
+
+
+
+.contact {
+    min-height: 800px;
+}
